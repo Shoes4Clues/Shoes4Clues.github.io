@@ -1,0 +1,27 @@
+.blog-content {
+	font-size:20px;
+}
+
+
+
+.fade {
+	opacity:1;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+
+
+h1 {
+	font-size:30px;
+}
+
+h2 {
+	font-size:20px;
+}
+
+@keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1;}
+}
